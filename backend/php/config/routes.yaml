@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+auth:
+  type:     rest
+  prefix:   /api
+  resource: App\Controller\AuthController
+
+
+event:
+  type:     rest
+  prefix:   /api
+  resource: App\Controller\EventController
